@@ -1,0 +1,29 @@
+# Agent Manifest — AgentRegistry entry point
+# This file is required for AgentRegistry auto-discovery (lazy-load architecture)
+
+id: "SVC-C2-050"
+name: "MICEEventPlanningChecklistVendorBriefGenerationAgent"
+namespace: "svc"
+version: "0.1.0"
+enabled: true
+category: "Cat 2"
+generation_mode: "llm"
+industry: "SVC"
+
+# Pattern reference (label only — NOT an inheritance base; this template
+# inherits AgentBaseGraph L1-direct).
+base_type: "DocGenerationAgent"  # RAGAgent | ChatAgent | ReActAgent | DocGenerationAgent
+
+# Entry point
+class: "src.graph.graph.MICEEventPlanningChecklistVendorBriefGenerationAgent"
+
+# Security
+required_trust_level: "VERIFIED_EXTERNAL"
+
+# Dependencies — the LLM secret is optional: template_only mode (llm=None)
+# is a fully supported, tested state.
+requires:
+  secrets:
+    - ANTHROPIC_API_KEY
+  extras:
+    - anthropic

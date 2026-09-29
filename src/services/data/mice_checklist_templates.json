@@ -1,0 +1,157 @@
+{
+  "event_types": {
+    "conference": {
+      "T-90": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Define event objectives and target audience",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Secure venue contract and confirm capacity",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Draft speaker/session outline"
+      ],
+      "T-60": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm keynote and session speakers",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Open registration and publish agenda"
+      ],
+      "T-30": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Finalize catering headcount estimate",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm AV/tech requirements per session"
+      ],
+      "T-7": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Final attendee headcount to venue and caterer",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Distribute run-of-show to all vendors"
+      ],
+      "event_day": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] On-site registration desk setup",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] AV/tech check before each session"
+      ],
+      "post_event": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Collect attendee feedback",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Reconcile vendor invoices against contracts"
+      ]
+    },
+    "agm": {
+      "T-90": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm quorum requirements and venue capacity",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Draft meeting notice and agenda outline"
+      ],
+      "T-60": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Finalize agenda items and resolutions"
+      ],
+      "T-30": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Send formal meeting notice per governance timeline",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Prepare proxy voting materials"
+      ],
+      "T-7": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm attendee/proxy headcount",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Prepare voting/ballot materials"
+      ],
+      "event_day": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Registration and credential check",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Vote tabulation setup"
+      ],
+      "post_event": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Publish meeting minutes and resolutions"
+      ]
+    },
+    "incentive": {
+      "T-90": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Define qualification criteria and reward tiers",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Shortlist destination/venue options"
+      ],
+      "T-60": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm accommodation block and group rates"
+      ],
+      "T-30": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Finalize activity/excursion itinerary",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm transport arrangements"
+      ],
+      "T-7": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Final participant headcount to all vendors"
+      ],
+      "event_day": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Airport/hotel transfer coordination",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Daily itinerary briefing"
+      ],
+      "post_event": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Collect participant satisfaction feedback"
+      ]
+    },
+    "product_launch": {
+      "T-90": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Define launch narrative and press list",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Secure venue with brand-appropriate staging"
+      ],
+      "T-60": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm media/press invitations"
+      ],
+      "T-30": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Finalize stage production and AV requirements",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm product demo logistics"
+      ],
+      "T-7": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Final press/attendee headcount to venue"
+      ],
+      "event_day": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Press check-in and media kit distribution",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Stage/production rehearsal"
+      ],
+      "post_event": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Media coverage tracking and follow-up"
+      ]
+    },
+    "exhibition": {
+      "T-90": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm exhibition hall and booth layout",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Open exhibitor registration"
+      ],
+      "T-60": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm exhibitor booth assignments"
+      ],
+      "T-30": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Finalize floor plan and signage",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Confirm exhibitor logistics (freight, power, AV)"
+      ],
+      "T-7": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Final visitor/exhibitor headcount to venue"
+      ],
+      "event_day": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Booth setup supervision",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Visitor registration desk operation"
+      ],
+      "post_event": [
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Exhibitor lead/feedback collection",
+        "[Illustrative example, not sourced Tourism Agency/JNTO text] Booth teardown supervision"
+      ]
+    },
+    "other": {
+      "T-90": [
+        "[Illustrative generic fallback — event type not in the initial 5 KB categories] Define event objectives and confirm venue"
+      ],
+      "T-60": [
+        "[Illustrative generic fallback] Confirm key vendors and participant estimate"
+      ],
+      "T-30": [
+        "[Illustrative generic fallback] Finalize catering and AV/tech requirements"
+      ],
+      "T-7": [
+        "[Illustrative generic fallback] Final headcount to all vendors"
+      ],
+      "event_day": [
+        "[Illustrative generic fallback] On-site registration and vendor coordination"
+      ],
+      "post_event": [
+        "[Illustrative generic fallback] Collect feedback and reconcile vendor invoices"
+      ]
+    }
+  },
+  "hybrid_addon_tasks": {
+    "T-30": [
+      "[Illustrative example] Confirm streaming platform and technical rehearsal schedule"
+    ],
+    "T-7": [
+      "[Illustrative example] Test remote participant Q&A/chat moderation workflow"
+    ],
+    "event_day": [
+      "[Illustrative example] Streaming technician on-site for the full event duration",
+      "[Illustrative example] Remote participant engagement monitoring"
+    ]
+  }
+}

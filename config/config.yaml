@@ -1,0 +1,11 @@
+# Runtime parameters (distinct from config/agent.yaml, the static manifest)
+max_retry: 2
+memory_enabled: false
+timeout_s: 45
+
+# MICE checklist KB configuration (proposal §10 Technical Feasibility #3 —
+# "Local KB at ./kb/"; implemented as
+# src/services/data/mice_checklist_templates.json per the "no new
+# top-level kb/ directory" structural constraint).
+kb_path: null  # null = bundled MVP dataset — see src/services/data/README.md Known Limitations
+system_prompt: null  # null = built-in default instructions (src/services/llm_helper.py)
